@@ -1,0 +1,486 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第3节 Flutter 命令详解 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ancre-navigation/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-treeview/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="4.依赖管理.html" />
+    
+    
+    <link rel="prev" href="2.Dart语法从入门到放弃.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    第一章 Flutter 入门基础及知识积累 
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="1.Flutter环境搭建.html">
+            
+                <a href="1.Flutter环境搭建.html">
+            
+                    
+                    第1节 Flutter环境搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="2.Dart语法从入门到放弃.html">
+            
+                <a href="2.Dart语法从入门到放弃.html">
+            
+                    
+                    第2节 Dart语法从入门到放弃
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3" data-path="3.Flutter 命令详解.html">
+            
+                <a href="3.Flutter 命令详解.html">
+            
+                    
+                    第3节 Flutter 命令详解
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="4.依赖管理.html">
+            
+                <a href="4.依赖管理.html">
+            
+                    
+                    第4节 依赖管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="5.dart 常用命令.html">
+            
+                <a href="5.dart 常用命令.html">
+            
+                    
+                    第5节 dart 常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="附录.html">
+            
+                <a href="附录.html">
+            
+                    
+                    附录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >第3节 Flutter 命令详解</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#&#x7B2C;2&#x8282;-flutter-&#x547D;&#x4EE4;&#x8BE6;&#x89E3;"><b></b>&#x7B2C;2&#x8282; Flutter &#x547D;&#x4EE4;&#x8BE6;&#x89E3;</a></li><ul><li><span class="title-icon "></span><a href="#11-build"><b></b>1.1 build</a></li><li><span class="title-icon "></span><a href="#22-dependence"><b></b>2.2 dependence</a></li><li><span class="title-icon "></span><a href="#23-config"><b></b>2.3 Config</a></li></ul></ul></div><a href="#&#x7B2C;2&#x8282;-flutter-&#x547D;&#x4EE4;&#x8BE6;&#x89E3;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><div class="treeview__container"><div class="treeview__container-title"><span class="treeview__main-title">Treeview</span><span class="treeview__copyright">Copyright &#xA9; aleen42 all right reserved, powered by <a href="https://github.com/aleen42" target="_blank">aleen42</a></span></div><ul>
+<li><div><a href="#&#x7B2C;2&#x8282;-flutter-&#x547D;&#x4EE4;&#x8BE6;&#x89E3;">&#x7B2C;2&#x8282; Flutter &#x547D;&#x4EE4;&#x8BE6;&#x89E3;</a><i class="level__parent level__item level__parent--opened" state="opened" onclick="var curState = this.getAttribute(&apos;state&apos;);var nextState = curState === &apos;opened&apos; ? &apos;hidden&apos; : &apos;opened&apos;;this.setAttribute(&apos;state&apos;, nextState);this.className = this.className.split(curState).join(nextState);var list = this.parentNode.nextElementSibling;if (nextState === &apos;hidden&apos;) {    list.style.display = &apos;none&apos;;} else {    list.style.display = &apos;block&apos;;}"></i></div>
+<ul>
+<li><div><a href="#11-build">1.1 build</a><i></i></div></li>
+<li><div><a href="#22-dependence">2.2 dependence</a><i></i></div></li>
+<li><div><a href="#23-config">2.3 Config </a><i></i></div></li>
+</ul></li>
+</ul>
+</div>
+
+<h1 id="&#x7B2C;2&#x8282;-flutter-&#x547D;&#x4EE4;&#x8BE6;&#x89E3;"><a name="&#x7B2C;2&#x8282;-flutter-&#x547D;&#x4EE4;&#x8BE6;&#x89E3;" class="anchor-navigation-ex-anchor" href="#&#x7B2C;2&#x8282;-flutter-&#x547D;&#x4EE4;&#x8BE6;&#x89E3;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7B2C;2&#x8282; Flutter &#x547D;&#x4EE4;&#x8BE6;&#x89E3;</h1>
+<pre><code class="lang-shell">-h, --help                  Print this usage information.
+-v, --verbose               Noisy logging, including all shell commands
+                            executed.
+                            If used with --help, shows hidden options.
+
+-d, --device-id             Target device id or name (prefixes allowed).
+    --version               Reports the version of this tool.
+    --suppress-analytics    Suppress analytics reporting when this command runs.
+    --bug-report            Captures a bug report file to submit to the Flutter
+                            team.
+                            Contains local paths, device identifiers, and log
+                            snippets.
+
+    --packages              Path to your &quot;.packages&quot; file.
+                            (required, since the current directory does not
+                            contain a &quot;.packages&quot; file)
+
+Available commands:
+  analyze                  Analyze the project&apos;s Dart code.
+  assemble                 Assemble and build flutter resources.
+  attach                   Attach to a running application.
+  bash-completion          Output command line shell completion setup scripts.
+  build                    Flutter build commands.
+  channel                  List or switch flutter channels.
+  clean                    Delete the build/ and .dart_tool/ directories.
+  config                   Configure Flutter settings.
+  create                   Create a new Flutter project.
+  devices                  List all connected devices.
+  doctor                   Show information about the installed tooling.
+  drive                    Runs Flutter Driver tests for the current project.
+  emulators                List, launch and create emulators.
+  format                   Format one or more dart files.
+  help                     Display help information for flutter.
+  install                  Install a Flutter app on an attached device.
+  logs                     Show log output for running Flutter apps.
+  make-host-app-editable   Moves host apps from generated directories to
+                           non-generated directories so that they can be edited
+                           by developers.
+  precache                 Populates the Flutter tool&apos;s cache of binary
+                           artifacts.
+  pub                      Commands for managing Flutter packages.
+  run                      Run your Flutter app on an attached device.
+  screenshot               Take a screenshot from a connected device.
+  test                     Run Flutter unit tests for the current project.
+  upgrade                  Upgrade your copy of Flutter.
+  version                  List or switch flutter versions.
+
+Run &quot;flutter help &lt;command&gt;&quot; for more information about a command.
+Run &quot;flutter help -v&quot; for verbose help output, including less commonly used
+options.
+</code></pre>
+<h2 id="11-build"><a name="11-build" class="anchor-navigation-ex-anchor" href="#11-build"><i class="fa fa-link" aria-hidden="true"></i></a>1.1 build</h2>
+<p>flutter build apk &#x2014;help </p>
+<blockquote>
+<p>&#x8F93;&#x51FA;&#xFF1A; ${flutter_project}/build/app/outputs</p>
+</blockquote>
+<p>flutter build ios </p>
+<blockquote>
+<p>&#x8F93;&#x51FA;&#x76EE;&#x5F55;&#xFF1A;${flutter_project}/build/ios/iphoneos/Runner.app</p>
+</blockquote>
+<p>&#x9519;&#x8BEF;1&#xFF1A; com.example.flutterApp  App Id &#x9519;&#x8BEF;</p>
+<pre><code class="lang-xml">Xcode&apos;s output:
+&#x21B3;
+note: Using new build systemnote: Planning buildnote: Constructing build descriptionerror: Failed to register bundle identifier. The app identifier &quot;com.example.flutterApp&quot; cannot be registered
+    to your development team. Change your bundle identifier to a unique string to try again. (in target &apos;Runner&apos; from project &apos;Runner&apos;)error: No profiles for &apos;com.example.flutterApp&apos; were found:
+    Xcode couldn&apos;t find any iOS App Development provisioning profiles matching &apos;com.example.flutterApp&apos;. (in target &apos;Runner&apos; from project &apos;Runner&apos;)
+</code></pre>
+<blockquote>
+<p>&#x5206;&#x6790;&#xFF1A; &#x82F9;&#x679C;IOS&#x6BCF;&#x4E2A;&#x65B0;&#x5EFA;&#x7684;APP Id&#x90FD;&#x9700;&#x8981;&#x901A;&#x8FC7;&#x4E91;&#x7AEF;&#x9A8C;&#x8BC1;&#x5176;&#x552F;&#x4E00;&#x6027;&#xFF0C;&#x4E0D;&#x552F;&#x4E00;&#x65E0;&#x6CD5;&#x7F16;&#x8BD1;&#x6210;&#x529F;</p>
+</blockquote>
+<p>&#x89E3;&#x51B3;&#xFF1A;Xcode -&gt; Runner(&#x70B9;&#x51FB;)-&gt; signing &amp; Capabilities -&gt; Bundle Identifier(&#x4FEE;&#x6539;)</p>
+<h2 id="22-dependence"><a name="22-dependence" class="anchor-navigation-ex-anchor" href="#22-dependence"><i class="fa fa-link" aria-hidden="true"></i></a>2.2 dependence</h2>
+<table>
+<thead>
+<tr>
+<th>flutter upgrade</th>
+<th>&#x5347;&#x7EA7; Flutter SDK&#xFF08;&#x6B64;&#x547D;&#x4EE4;&#x4F1A;&#x540C;&#x65F6;&#x66F4;&#x65B0; Flutter SDK &#x548C;&#x4F60;&#x7684; Flutter &#x9879;&#x76EE;&#x4F9D;&#x8D56;&#x5305;&#xFF09;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>flutter packages get</td>
+<td>&#x83B7;&#x53D6;&#x9879;&#x76EE;&#x6240;&#x6709;&#x7684;&#x4F9D;&#x8D56;&#x5305;&#xFF08;&#x53EA;&#x66F4;&#x65B0;&#x9879;&#x76EE;&#x4F9D;&#x8D56;&#x5305;&#xFF0C;&#x4E0D;&#x5305;&#x62EC; Flutter SDK&#xFF09;</td>
+</tr>
+<tr>
+<td>flutter packages upgrade</td>
+<td>&#x83B7;&#x53D6;&#x9879;&#x76EE;&#x6240;&#x6709;&#x4F9D;&#x8D56;&#x5305;&#x7684;&#x6700;&#x65B0;&#x7248;&#x672C;&#xFF08;&#x53EA;&#x66F4;&#x65B0;&#x9879;&#x76EE;&#x4F9D;&#x8D56;&#x5305;&#xFF0C;&#x4E0D;&#x5305;&#x62EC; Flutter SDK&#xFF09;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="23-config"><a name="23-config" class="anchor-navigation-ex-anchor" href="#23-config"><i class="fa fa-link" aria-hidden="true"></i></a>2.3 Config</h2>
+<blockquote>
+<p>flutter devices&#x627E;&#x4E0D;&#x5230;Android &#x8BBE;&#x5907;</p>
+</blockquote>
+<pre><code>$ flutter config --android-sdk /path/to/android/sdk
+$ flutter config --android-studio-dir /path/to/android/studio
+flutter config --gradle-dir /path/to/gradle
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="2.Dart语法从入门到放弃.html" class="navigation navigation-prev " aria-label="Previous page: 第2节 Dart语法从入门到放弃">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="4.依赖管理.html" class="navigation navigation-next " aria-label="Next page: 第4节 依赖管理">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第3节 Flutter 命令详解","level":"1.2.3","depth":2,"next":{"title":"第4节 依赖管理","level":"1.2.4","depth":2,"path":"Chapter1/4.依赖管理.md","ref":"Chapter1/4.依赖管理.md","articles":[]},"previous":{"title":"第2节 Dart语法从入门到放弃","level":"1.2.2","depth":2,"path":"Chapter1/2.Dart语法从入门到放弃.md","ref":"Chapter1/2.Dart语法从入门到放弃.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters","ancre-navigation","simple-page-toc","page-treeview","code","-lunr","-search","search-pro","advanced-emoji","github","splitter","sectionx","livereload"],"pluginsConfig":{"page-treeview":{"copyright":"Copyright &#169; aleen42","minHeaderCount":"2","minHeaderDeep":"2"},"github":{"url":"https://github.com/zhangjikai"},"livereload":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"splitter":{},"search-pro":{},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"highlight":{},"ancre-navigation":{"associatedWithSummary":true,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showLevel":true},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Chapter1/3.Flutter 命令详解.md","mtime":"2020-01-21T09:25:39.414Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-21T10:46:50.791Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

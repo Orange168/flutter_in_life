@@ -1,0 +1,28 @@
+{
+  "plugins": [
+    "expandable-chapters",
+    "ancre-navigation",
+    "simple-page-toc",
+    "page-treeview",
+    "code",
+    "-lunr",
+    "-search",
+    "search-pro",
+    "advanced-emoji",
+    "github",
+    "splitter",
+    "sectionx"
+  ],
+  "pluginsConfig": {
+    "simple-page-toc": {
+      "maxDepth": 3,
+      "skipFirstH1": true
+    }, "page-treeview": {
+      "copyright": "Copyright &#169; aleen42",
+      "minHeaderCount": "2",
+      "minHeaderDeep": "2"
+    },"github": {
+      "url": "https://github.com/zhangjikai"
+    }
+  }
+}
