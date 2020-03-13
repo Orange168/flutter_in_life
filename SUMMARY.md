@@ -9,5 +9,8 @@
     * [第5节 dart 常用命令](Chapter1/5.dart 常用命令.md)
 * [第二章 Flutter UI 控件](Chapter2/README.md)
     * [第1节 flutter 控件详解](Chapter1/6.flutter_控件详解.md)
+    * [第2节 flutter 事件详解](Chapter2/7.flutter_事件详解.md)
+    * [第3节 flutter 布局](Chapter2/8.flutter_布局.md)
+    * [第4节 flutter 常用开源库](Chapter2/9.flutter_常用开源库.md)
     * [附录](Chapter1//附录.md)
 
